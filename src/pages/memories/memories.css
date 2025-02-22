@@ -1,0 +1,12 @@
+/* Jai Shree Ram */
+
+* {
+    all: unset !important;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    all: unset !important;
+}
