@@ -131,9 +131,8 @@ function Memories() {
         
         <div className="px-8 py-6">
 
-        <div className="seacrh flex justify-between absolute top-5 w-[90%] text-2xl h-[5vh] bg-white/30 rounded-xl">
+        <div className="seacrh hidden flex justify-between absolute top-5 w-[90%] text-2xl h-[5vh] bg-white/30 rounded-xl">
           <input className="w-full h-full border-none outline-none bg-[transparent] text-white placeholder:text-white px-5" placeholder="Search" type="text" />
-
           <div className="absolute flex justify-end -right-[8%] items-center pr-4">
             <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full flex items-center">
               <span>Search</span>
