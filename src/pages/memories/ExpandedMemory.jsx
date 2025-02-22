@@ -49,9 +49,12 @@ function ExpandedMemory() {
               year: 'numeric'
             })}
           </div>
-          <div className="content mt-4 text-xl tracking-tight">
-            {memory.content}
-          </div>
+          <div 
+            className="content mt-4 text-xl tracking-tight"
+            dangerouslySetInnerHTML={{
+              __html: memory.content.replace(/\n/g, '<br>')
+            }}
+          />
         </div>
       )}
     </div>
