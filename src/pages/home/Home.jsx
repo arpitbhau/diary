@@ -18,7 +18,7 @@ function Home() {
   const navigate = useNavigate()
 
   const storeContent = async () => {
-    let dateForMySake = document.querySelector(".sheet p").innerHTML
+    let dateForMySake = getCurrentDateTime().toString()
     const content = document.querySelector('.sheet').innerText.replace(dateForMySake , "")
     try {
       const { data, error } = await supabase
