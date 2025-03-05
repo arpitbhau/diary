@@ -105,8 +105,8 @@ function Memories() {
          
        {memories ? (
           memories.map((memory) => {
-            // Get first 30 words
-            const words = memory.content.split('<br>').slice(0, 10).join(' ') + '...';
+            // Get first 4 words
+            const words = memory.content.split('<br>').slice(0, 4).join(' ') + '...';
             
             return (
               <div onClick={() => navigate(`/memory/${memory.id}`)} key={memory.id} className="memory cursor-pointer hover:scale-[1.1] transition-all relative w-[23vw] h-[26vh] rounded-2xl p-5 bg-black/30 shadow-lg">
