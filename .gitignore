@@ -1,0 +1,5 @@
+# Jai Shree Ram
+
+node_modules/
+temp*
+.env

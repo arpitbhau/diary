@@ -8,9 +8,10 @@ import NotFound from './pages/notfound/NotFound'
 import Memories from './pages/memories/Memories'
 import ExpandedMemory from './pages/memories/ExpandedMemory'
 import { Toaster } from 'react-hot-toast'
+import "axios"
+import axios from 'axios'
 
 function App() {
-
 
       
   return (

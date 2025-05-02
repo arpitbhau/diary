@@ -1,0 +1,33 @@
+{
+  "name": "backend",
+  "version": "2.0.0",
+  "description": "supports saving video as a memory",
+  "main": "server.js",
+  "scripts": {
+    "dev": "npx nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arpitbhau/diary.git"
+  },
+  "keywords": [
+    "mern"
+  ],
+  "author": "arpitbhau",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arpitbhau/diary/issues"
+  },
+  "homepage": "https://github.com/arpitbhau/diary#readme",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "concurrently": "^9.1.2",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mu": "^2.0.5",
+    "multer": "^1.4.5-lts.2",
+    "nodemon": "^3.1.10"
+  }
+}
